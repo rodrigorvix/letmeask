@@ -11,9 +11,6 @@ import { useAuth } from '../hooks/useAuth'
 
 import '../styles/auth.scss'
 
-
-
-
 export function Home() {
   const history = useHistory();
   const {user, signWithGoogle } = useAuth();
@@ -40,6 +37,7 @@ export function Home() {
       return;
     }
     history.push(`/rooms/${roomCode}`);
+    
   }
 
   return (
