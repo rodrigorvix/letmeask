@@ -9,7 +9,7 @@ import '../styles/auth.scss'
 import { Button } from '../components/Button'
 import { database } from '../services/firebase'
 import { useAuth } from '../hooks/useAuth'
-import firebase from 'firebase'
+
 
 export function NewRoom() {
   const { user } = useAuth();
