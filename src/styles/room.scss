@@ -110,3 +110,40 @@
     }
   }
 }
+
+@media(max-width:800px){
+  #page-room {
+    main {
+      padding: 0 16px;
+    }
+  }
+}
+
+@media(max-width:450px) {
+  #page-room {
+    header{
+      button {
+         width: 180px;
+         span {
+           font-size: 10px;
+          
+         }
+      }
+    }
+    main {
+       .room-title {
+         justify-content: space-between;
+
+         h1 {
+           font-size: 20px;
+         }
+         span{
+           font-size:12px
+         }
+       }
+      .button {
+        font-size: 12px;
+      }
+    }
+  }
+}
