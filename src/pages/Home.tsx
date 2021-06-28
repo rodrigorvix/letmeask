@@ -55,6 +55,10 @@ export function Home() {
       </aside>
       <main>
         <div className="main-content">
+          <div className="main-title-media">
+            <strong>Crie salas de Q&amp;A ao-vivo</strong>
+            <p>Tire as dúvidas da sua audiência em tempo-real</p>
+          </div>
           <img src={logoImg} alt="Letmeask" />
           <button onClick={handleCreateRoom} className="create-room">
             <img src={googleIconImg} alt="Logo do Google" />
