@@ -49,7 +49,7 @@
     align-items: stretch;
     text-align: center;
 
-    .main-title-media{
+    .main-title-mobile{
       font-size: 24px;
       margin-bottom: 80px;
       display: none;
@@ -148,12 +148,11 @@
 
 @media(max-width: 800px) {
   #page-auth {
-    
     aside {
       display: none;
     }
     .main-content {
-      .main-title-media {
+      .main-title-mobile {
         display: block;
       }
     }

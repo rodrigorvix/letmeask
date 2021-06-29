@@ -55,7 +55,7 @@ export function Home() {
       </aside>
       <main>
         <div className="main-content">
-          <div className="main-title-media">
+          <div className="main-title-mobile">
             <strong>Crie salas de Q&amp;A ao-vivo</strong>
             <p>Tire as dúvidas da sua audiência em tempo-real</p>
           </div>
