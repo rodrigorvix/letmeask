@@ -7,9 +7,10 @@ import logoImg from '../../assets/images/logo.svg'
 import googleIconImg from '../../assets/images/google-icon.svg'
 
 import { Button } from '../../components/Button'
+
 import { useAuth } from '../../hooks/useAuth'
 
-import './styles.scss'
+import { PageAuth } from './styles'
 
 export function Home() {
   const history = useHistory();
@@ -47,7 +48,7 @@ export function Home() {
   }
 
   return (
-    <div id="page-auth">
+    <PageAuth>
       <aside>
         <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
@@ -78,6 +79,6 @@ export function Home() {
           </form>
         </div>
       </main>
-    </div>
+    </PageAuth>
   )
 }

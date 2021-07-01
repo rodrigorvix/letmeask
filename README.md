@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img src="./src/assets/images/logo.svg" alt="My cool logo"/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#📷-demonstração">Demonstração</a> •
+ <a href="#ℹ️-sobre">Sobre</a> • 
+ <a href="#🛠-tecnologias">tecnologias</a> • 
+ <a href="#🔗-link-do-projeto">Link do projeto</a> • 
+ <a href="#🔗-como-executar">Como executar</a> 
+ <a href="#📚-aprendizados">Aprendizados</a> • 
+ <a href="#👨‍💻-autor">Autor</a> • 
+ <a href="#👏-Agradecimentos">Agradecimentos</a> 
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://www.linkedin.com/in/rodrigovitoriense/">
+<img src="https://img.shields.io/static/v1?label=DEVELOPER&message=RODRIGOVITORIENSE&color=7159c1&style=for-the-badge&logo="/>
+</a>
+<img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=7159c1&style=for-the-badge&logo="/>
+</p><br>
 
-In the project directory, you can run:
+# 📷 Demonstração
 
-### `yarn start`
+<img src="">
+<br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# ℹ️ Sobre
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O projeto Letmeask foi realizado durante o evento Next Level Week Together. O objetivo da plataforma criada é resolver problemas de acúmulos de perguntas durante uma live, transmissão, etc. 
+A plataforma nos permite criar salas privadas para que os participantes possam fazer perguntas(desde que estejam logados com uma conta do Google) e  votar em quais devem ser respondidadas pelo dono da sala. Já o dono da sala pode selecionar as perguntas, colocar foco, dentre outras funcionalidades.
+  <br><br>
 
-### `yarn test`
+# 🔗 Link do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Link de demonstração do projeto: [Letmeask-rodrigorvix](https://letmeask-rodrigorvix.web.app/)
+  <br><br>
 
-### `yarn build`
+# Como executar?
+  ...
+ <br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🛠 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes tecnologias foram utilizadas na construção do projeto:
 
-### `yarn eject`
+- [ReactJS](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+  <br><br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 📚 Aprendizados
+  ....
+  <br><br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 👨‍💻 Autor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Linkedin](https://www.linkedin.com/in/rodrigovitoriense/)
+- [GitHub](https://github.com/rodrigorvix)
+  <br><br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# 👏 Agradecimentos
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+....

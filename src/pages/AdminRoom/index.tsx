@@ -1,6 +1,5 @@
 import { useHistory, useParams } from 'react-router-dom'
 
-
 import logoImg from '../../assets/images/logo.svg';
 import deleteImg from '../../assets/images/delete.svg';
 import checkImg from '../../assets/images/check.svg';
@@ -9,19 +8,18 @@ import answerImg from '../../assets/images/answer.svg';
 import { Button } from '../../components/Button';
 import { RoomCode } from '../../components/RoomCode';
 import { database } from '../../services/firebase';
-
 import {Question} from '../../components/Question'
 
 import { useRoom } from '../../hooks/useRoom';
 
-import '../Room/styles.scss';
+import { PageRoom } from '../Room/styles';
 
 type RoomParams = {
   id: string;
 }
 
 export function AdminRoom() {
-  // const {user} = useAuth();
+ 
   const history = useHistory();
   const params = useParams<RoomParams>();
   const roomId = params.id;
@@ -54,7 +52,7 @@ export function AdminRoom() {
   }
 
   return (
-    <div id="page-room">
+    <PageRoom>
       <header>
         <div className="content">
           <img src={logoImg} alt="Letmeask" />
@@ -109,8 +107,7 @@ export function AdminRoom() {
             )
           })}
         </div>
-        
       </main>
-    </div>
+      </PageRoom>
   );
 }

@@ -1,4 +1,6 @@
-.button {
+import styled from 'styled-components';
+
+export const ButtonStyled = styled.button`
   height:50px;
   border-radius: 8px;
   font-weight: 500;
@@ -33,5 +35,8 @@
     opacity: 0.6;
     cursor: not-allowed;
   }
-  
-}
+  @media(max-width:420px) {
+    height: 40px;
+    font-size: 14px;
+  }
+` 

@@ -1,5 +1,7 @@
-#page-room {
-  header {
+import styled from 'styled-components'
+
+export const PageRoom = styled.div`
+    header {
     padding: 24px;
     border-bottom: 1px solid #E2E2E2;
 
@@ -12,6 +14,10 @@
 
       > img {
         max-height: 45px;
+
+        @media(max-width:660px) {
+          margin-bottom: 16px;
+        }
       }
 
       > div {
@@ -21,6 +27,14 @@
         button {
           height: 40px;
         }
+        @media(max-width:660px) {
+
+          flex-direction: column;
+        }
+      }
+      @media(max-width:660px) {
+
+        flex-direction: column;
       }
     }
   }
@@ -38,6 +52,11 @@
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
         color: #29292E;
+
+        @media(max-width: 420px) {
+
+          font-size: 14px;
+        }
       }
 
       span {
@@ -107,44 +126,8 @@
     .question-list {
       margin-top: 32px;
     }
-  }
-}
-
-@media(max-width:800px){
-  #page-room {
-    main {
+    @media(max-width:800px) {
       padding: 0 16px;
     }
   }
-}
-@media(max-width:660px) {
-  #page-room {
-    .content {
-      flex-direction: column;
-
-      img {
-        margin-bottom: 16px;
-      }
-
-      div {
-        flex-direction: column;
-      }
-    }
-    main {
-      .room-title {
-       justify-content: center;
-      }
-    }
-  }
-}
-@media(max-width: 420px) {
-  #page-room  {
-    main {
-      .room-title {
-        h1 {
-          font-size: 16px;
-        }    
-      }
-    }
-  }
-}
+`;

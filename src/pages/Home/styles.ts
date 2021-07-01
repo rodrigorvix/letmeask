@@ -1,4 +1,6 @@
-#page-auth {
+import styled from 'styled-components';
+
+export const PageAuth = styled.div`
   display: flex;
   align-items: stretch;
   height: 100vh;
@@ -30,6 +32,9 @@
       color:#f8f8f8;
 
     }
+    @media(max-width: 800px) {
+      display: none;
+    }
     
 }
   main {
@@ -53,6 +58,10 @@
       font-size: 24px;
       margin-bottom: 80px;
       display: none;
+
+      @media(max-width: 800px) {
+        display: block;
+      }
     }
     > img {
       align-items: center;
@@ -144,18 +153,4 @@
       margin-left: 16px;
     }
   }
-}
-
-@media(max-width: 800px) {
-  #page-auth {
-    aside {
-      display: none;
-    }
-    .main-content {
-      .main-title-mobile {
-        display: block;
-      }
-    }
-    
-  }
-}
+`;
