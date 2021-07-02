@@ -25,7 +25,7 @@
 <img src="./src/assets/previews/preview-desktop.gif" style="margin:auto; display:flex; justify-content:center;" alt="Demonstração da aplicação no desktop.">
 <img src="./src/assets/previews/preview-mobile.gif" style="margin:20px auto; display:flex; justify-content:center;" alt="Demonstração da aplicação mobile.">
 
-<br><br>
+<br>
 
 # ℹ️ Sobre
 
@@ -33,7 +33,7 @@
 O projeto Letmeask foi realizado durante o evento Next Level Week Together. O objetivo da plataforma criada é resolver problemas de acúmulos de perguntas durante uma live, transmissão, etc. 
 A plataforma nos permite criar salas privadas para que os participantes possam fazer perguntas (desde que estejam logados com uma conta do Google) e  votar em quais devem ser respondidadas pelo dono da sala. Já o dono da sala pode selecionar as perguntas, colocar foco, dentre outras funcionalidades.
 </p>
-  <br><br>
+  <br>
 
 # 🛠 Tecnologias
 
@@ -48,7 +48,7 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 # 🔗 Link do projeto
 
 - Link de demonstração do projeto: [Letmeask-rodrigorvix](https://letmeask-rodrigorvix.web.app/)
-  <br><br>
+  <br>
 
 # 🚀 Como executar
 
@@ -81,7 +81,7 @@ $ yarn start
 ```
 
 O aplicativo estará disponível para acesso pelo seu navegador em http://localhost:3000
- <br><br>
+ <br>
 
 # 📚 Aprendizados
  
@@ -105,13 +105,13 @@ O aplicativo estará disponível para acesso pelo seu navegador em http://localh
  ## Melhorias aplicadas no projeto:
     - Uso de style components (inicialmente foi utilizado o pré-processador SASS);
     - Responsividade.
-  <br><br>
+  <br>
   
 # 👨‍💻 Autor
 
 - [Linkedin](https://www.linkedin.com/in/rodrigovitoriense/)
 - [GitHub](https://github.com/rodrigorvix)
-  <br><br>
+  <br>
 
 # 👏 Agradecimentos
 
